@@ -1,0 +1,92 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(ace.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.three{
+    display: inline-border;
+    border-style: solid;
+    border-radius: 28%;
+    padding: 5px;
+    margin: 20px;
+    width: 70%;
+    border-color: black;
+    
+}
+nav,h1,ul,li{
+    display: inline;
+}
+ul{
+    margin-left: 75%;
+}
+button{
+    color: #fff;
+    padding: 7px 22px;
+    width: 100px;
+    border-radius: 10px;
+   background: gainsboro;
+   transition: all 0.2s ease;
+    font-family: fantasy;
+}
+h1,h5{
+    text-align: center;
+}
+li:hover{
+    background-color: crimson;
+}
+/* CSS code for the two-column layout */
+.column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 50%; /* Each item takes up half of the container */
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Styling for the images */
+.item img {
+    width: 250px;
+    height: auto;
+}
+
+/* Styling for the buttons */
+.item button {
+    margin-top: 10px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.item button a {
+    color: white;
+    text-decoration: none;
+}
+
+.item button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
